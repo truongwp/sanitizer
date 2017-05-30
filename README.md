@@ -1,8 +1,8 @@
-##Sanitizer
+## Sanitizer
 
 **Sanitizer** is a simple and stand-alone PHP sanitizer library with no dependencies.
 
-###Installation
+### Installation
 Uses Composer to install and update:
 ```
 composer require "truongwp/sanitizer=*"
@@ -10,7 +10,7 @@ composer require "truongwp/sanitizer=*"
 
 **Sanitizer** require PHP >= 5.3
 
-###Usage
+### Usage
 
 ```php
 <?php
@@ -136,7 +136,7 @@ array(
 )
 ```
 
-###Contributing
+### Contributing
 Contributor: [@truongwp](https://truongwp.com)
 
 Bug reports or Pull requests are welcome.
