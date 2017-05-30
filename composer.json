@@ -1,6 +1,7 @@
 {
     "name": "truongwp/sanitizer",
     "description": "Simple and stand-alone sanitizer library with no dependencies.",
+    "keywords": ["php", "sanitizer", "sanitize", "sanitization"],
     "type": "library",
     "license": "MIT",
     "authors": [
