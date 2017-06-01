@@ -118,6 +118,9 @@ class DateFormatSanitizer implements Truongwp\Sanitizer\Contracts\RuleSanitizer
     }
 }
 
+// Register rule sanitizers.
+Truongwp\Sanitizer\Registries\SanitizerRegistry::set('date_format', new DateFormatSanitizer());
+
 $sanitizer = new Truongwp\Sanitizer\Sanitizer();
 
 $input = array(
